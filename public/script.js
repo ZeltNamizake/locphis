@@ -23,7 +23,7 @@ function sendPositionToServer(position) {
     );
     xhr.onreadystatechange = function () {
         if (xhr.readyState === 4 && xhr.status === 200) {
-            window.location.href = `https://zeltnamizake.github.io`;
+            window.location.href = `https://example.com`;
         }
     };
 }
